@@ -92,6 +92,10 @@
 .btn-kuliah {
     margin-right: 20px;
 }
+.btn-kuliah :hover {
+    background-color: #a0a0a0;
+}
+
 .btn-kuliah2 {
     margin-left: 10px;
 }
@@ -131,6 +135,9 @@
     border-radius: 12px;
     margin: 15px;
     text-align: center;
+}
+.btn-join :hover{
+    color: #000000;
 }
 .join {
     font-family: Times New Roman;
@@ -194,6 +201,9 @@
     text-decoration: none;
     color: white;
 }
+.btnmtr :hover {
+    color: #000000;
+}
 
 .Tugasku {
     width: 100%;
@@ -245,6 +255,28 @@
 .tugass1 a {
     text-decoration: none;
     color: white;
+}
+.tugass1  :hover {
+    color: black;
+}
+.videoyt {
+    width: 100%;
+    height: 100vh;
+    background-color: #a0a0a0;
+    display: flex;
+}
+.tab {
+    width: 100%;
+    height: 90vh;
+}
+.yt {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.yt01 {
+    padding: 10px;
 }
 .aboutme {
     background: #007a8d;
@@ -357,3 +389,111 @@ button:hover {
 textarea {
     height: 90px;
 }
+.aboutme2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    align-items: center;
+}
+/* media query */
+    /*handphone */
+    @media screen and (max-width: 476px) {
+        .body{
+            width: 100%;
+            height: 100vh;
+
+        }
+        .heading {
+            width: 50%;
+            font-size: 60%;
+            position: fixed;
+        }
+        .fitur {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            overflow-x: scroll;
+        }
+        .uascard {
+            width: 100%;
+        }
+        .teks01{
+            display: flex;
+        }
+        .btn-kuliah {
+            width: 50%;
+        }
+        .front{
+          width: 100%;  
+        }
+        .fronth2 {
+            width: 80%;
+            margin-bottom: 10px;
+            font-size: 2.0em;
+        }
+        .front
+        .frontright img{
+            display: none;
+        }
+        .card-container {
+            height: 90vh;
+        }
+        .left {
+            height: 90vh;
+        }
+        .materi {
+            width: 100%;
+            align-items: center;
+        }
+        .up {
+            padding-bottom: 30px;
+        }
+        .down{
+            height: 100%;
+        }
+        .blockmateri{
+            height: 90%;
+        }
+        .teks{
+            width: 80%;
+            height: 100%;
+        }
+        .teksh2{
+            display: none;
+        }
+        .Tugasku {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .owner{
+            width: 100%;
+            height: 100%;
+        }
+        .videoyt{
+            width: 100%;
+            height: 80%;
+        }
+        .yt {
+            display: flex;
+            overflow-x: hidden;
+            height: 70%;
+        }
+        .aboutme2 {
+            width: 100%;
+            display: grid;
+            margin-top:20px ;
+        }
+        .img{
+            width:100px;
+        }
+        .name{
+            align-items: center;
+        }
+    }
